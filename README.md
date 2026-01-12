@@ -46,6 +46,7 @@ Before you begin, ensure you have met the following requirements:
    ADMIN_USERNAME=youradminusername
    ADMIN_PASSWORD=youradminpassword
    SESSION_SECRET=your_very_long_and_random_secret_string
+   PORT=3002
    ```
 7. Start the Redis server:
    ```
@@ -90,6 +91,7 @@ Before you begin, ensure you have met the following requirements:
    ADMIN_USERNAME=youradminusername
    ADMIN_PASSWORD=youradminpassword
    SESSION_SECRET=your_very_long_and_random_secret_string
+   PORT=3002
    ```
 7. Start the Redis server:
    ```

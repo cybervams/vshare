@@ -429,7 +429,8 @@ process.on('SIGINT', () => {
 });
 
 // Store the server instance
-const server = app.listen(0, () => {
+const PORT = Number(process.env.PORT) || 3002;
+const server = app.listen(PORT,"0.0.0.0", () => {
     const port = server.address().port;
     console.log(`Server running on http://localhost:${port}`);
 }).on('error', (e) => {
